@@ -7,9 +7,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HashMapTokenMapStrategy implements TokenMapStrategy {
-    private static Map<String, String> temporaryTokenTokenSecretMap = new HashMap<String, String>();
+    public static final Map<String, String> TEMPORARY_TOKEN_TOKEN_SECRET_MAP = new HashMap<String, String>();
 
     public void mapTemporaryTokenToTemporaryTokenSecret(String temporaryToken, String temporaryTokenSecret) throws TokenMapException {
-        temporaryTokenTokenSecretMap.put(temporaryToken, temporaryTokenSecret);
+        TEMPORARY_TOKEN_TOKEN_SECRET_MAP.put(temporaryToken, temporaryTokenSecret);
+    }
+
+    public String getTemporaryTokenSecretForTemporaryToken(String temporaryToken) throws TokenMapException {
+        return TEMPORARY_TOKEN_TOKEN_SECRET_MAP.get(temporaryToken);
     }
 }
