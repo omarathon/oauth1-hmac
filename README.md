@@ -8,6 +8,8 @@ Please note that the OAuth1.0 implementation in `google-oauth-client` is in Beta
  
  **If your project uses a conflicting version of `google-oauth-client`** (such a dependency may come transitively from `google-oauth1-client`) then **usage of this library is highly unrecommended**.
  
+ ## Usage
+ 
  ## Documentation
  
  The latest version of OAuth1-HMAC has a JavaDoc [here](https://omarathon.github.io/oauth1-hmac/).
