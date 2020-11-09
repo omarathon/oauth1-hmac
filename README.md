@@ -22,6 +22,9 @@ This simple example:
 1. Waits for the user to verify the temporary token by polling until a key-press occurs.
 1. After a key-press occurs, obtains and displays an access token from the service provider using their temporary token.
 1. Makes a request on the behalf of the user to the resource server using their access token, and displays the result.
+
+For an understanding of the terms used in this example, please refer to the following diagram of the OAuth1.0 flow:
+![OAuth1.0 Flow](https://a.slack-edge.com/fbd3c/img/api/articles/oauth_scopes_tutorial/slack_oauth_flow_diagram.png)
  
 ## Documentation
  
