@@ -10,6 +10,8 @@ Please note that the OAuth1.0 implementation in `google-oauth-client` is in Beta
  
  ## Usage
  
+ One may find a simple example application in [Example.java](src/test/java/example/Example.java).
+ 
  ## Documentation
  
  The latest version of OAuth1-HMAC has a JavaDoc [here](https://omarathon.github.io/oauth1-hmac/).
