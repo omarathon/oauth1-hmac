@@ -24,7 +24,7 @@ This simple example:
 1. Makes a request on the behalf of the user to the resource server using their access token, and displays the result.
 
 For an understanding of the terms used in this example, please refer to the following diagram of the OAuth1.0 flow:
-![OAuth1.0 Flow](https://a.slack-edge.com/fbd3c/img/api/articles/oauth_scopes_tutorial/slack_oauth_flow_diagram.png)
+![OAuth1.0 Flow](https://support.smartbear.com/readyapi/docs/_images/requests/auth/types/oauth1/about-flow.png)
  
 ## Documentation
  
