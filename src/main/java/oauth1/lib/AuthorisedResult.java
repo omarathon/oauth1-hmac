@@ -22,4 +22,12 @@ public class AuthorisedResult {
     public OAuthParameters getoAuthParameters() {
         return oAuthParameters;
     }
+
+    @Override
+    public String toString() {
+        return "AuthorisedResult{" +
+                "accessToken='" + accessToken + '\'' +
+                ", oAuthParameters=" + oAuthParameters +
+                '}';
+    }
 }

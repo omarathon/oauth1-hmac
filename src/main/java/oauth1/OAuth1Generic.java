@@ -88,6 +88,7 @@ public class OAuth1Generic {
         getTemporaryToken.callback = callbackUrl;
         signer.clientSharedSecret = consumerSecret;
         getTemporaryToken.consumerKey = consumerKey;
+        getTemporaryToken.signer = signer;
         getTemporaryToken.transport = new NetHttpTransport();
 
         // Execute get temporary token request.

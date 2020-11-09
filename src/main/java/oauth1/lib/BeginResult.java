@@ -22,4 +22,12 @@ public class BeginResult {
     public String getRedirectUrl() {
         return redirectUrl;
     }
+
+    @Override
+    public String toString() {
+        return "BeginResult{" +
+                "temporaryToken='" + temporaryToken + '\'' +
+                ", redirectUrl='" + redirectUrl + '\'' +
+                '}';
+    }
 }
