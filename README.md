@@ -15,7 +15,7 @@ Please note that the OAuth1.0 implementation in `google-oauth-client` is in Beta
 
 ### Example
  
-One may find an example application which does not use a callback URL in [Example.java](src/test/java/example/Example.java).
+One may find an example application (which does not use a callback URL) in [Example.java](src/test/java/example/Example.java).
  
 This simple example:
 1. Obtains and displays a temporary token and redirect URL from the service provider.
