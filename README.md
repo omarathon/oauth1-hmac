@@ -9,6 +9,11 @@ Please note that the OAuth1.0 implementation in `google-oauth-client` is in Beta
 **If your project uses a conflicting version of `google-oauth-client`** (such a dependency may come transitively from `google-oauth1-client`) then **usage of this library is highly unrecommended**.
  
 ## Usage
+
+### Primary API
+
+
+### Example
  
 One may find an example application in [Example.java](src/test/java/example/Example.java).
  
