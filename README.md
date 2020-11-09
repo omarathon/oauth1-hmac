@@ -6,12 +6,18 @@ This library wraps the [Google OAuth Client Library for Java](https://developers
 
 Please note that the OAuth1.0 implementation in `google-oauth-client` is in Beta, and is thus subject to change. Its implementation has been tested and verified working for version `1.31.0`. For higher versions, it exhibits buggy behaviour, and thus the version of the `google-oauth-client` dependency shall only be bumped if the OAuth1.0 implementation remains unchanged and works.
  
- **If your project uses a conflicting version of `google-oauth-client`** (such a dependency may come transitively from `google-oauth1-client`) then **usage of this library is highly unrecommended**.
+**If your project uses a conflicting version of `google-oauth-client`** (such a dependency may come transitively from `google-oauth1-client`) then **usage of this library is highly unrecommended**.
  
- ## Usage
+## Usage
  
- One may find a simple example application in [Example.java](src/test/java/example/Example.java).
+One may find an example application in [Example.java](src/test/java/example/Example.java).
  
- ## Documentation
+This simple example:
+1. Obtains and displays a temporary token and redirect URL from the service provider.
+1. Waits for the user to verify the temporary token by polling until a key-press occurs.
+1. After a key-press occurs, obtains and displays an access token from the service provider using their temporary token.
+1. Makes a request on the behalf of the user to the resource server using their access token, and displays the result.
  
- The latest version of OAuth1-HMAC has a JavaDoc [here](https://omarathon.github.io/oauth1-hmac/).
+## Documentation
+ 
+The latest version of OAuth1-HMAC has a JavaDoc [here](https://omarathon.github.io/oauth1-hmac/).
