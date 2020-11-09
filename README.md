@@ -16,6 +16,8 @@ Please note that the OAuth1.0 implementation in `google-oauth-client` is in Beta
 ### Example
  
 One may find an example application (which does not use a callback URL) in [Example.java](src/test/java/example/Example.java).
+
+To use a callback URL, use an instance of [OAuth1WithCallback](src/main/java/oauth1/OAuth1WithCallback.java) instead of [OAuth1NoCallback](src/main/java/oauth1/OAuth1NoCallback.java).
  
 This simple example:
 1. Obtains and displays a temporary token and redirect URL from the service provider.
@@ -25,8 +27,6 @@ This simple example:
 
 For an understanding of the terms used in this example, please refer to the following diagram of the OAuth1.0 flow:
 ![OAuth1.0 Flow](https://support.smartbear.com/readyapi/docs/_images/requests/auth/types/oauth1/about-flow.png)
-
-To use a callback URL, use an instance of [OAuth1WithCallback](src/main/java/oauth1/OAuth1WithCallback.java) instead of [OAuth1NoCallback](src/main/java/oauth1/OAuth1NoCallback.java).
  
 ## Documentation
  
