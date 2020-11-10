@@ -7,7 +7,31 @@ This library wraps the [Google OAuth Client Library for Java](https://developers
 Please note that the OAuth1.0 implementation in `google-oauth-client` is in Beta, and is thus subject to change. Its implementation has been tested and verified working for version `1.31.0`. For higher versions, it exhibits buggy behaviour, thus the version of the `google-oauth-client` dependency shall only be bumped if the OAuth1.0 implementation remains unchanged and works.
  
 **If your project uses a conflicting version of `google-oauth-client`** (such a dependency may come transitively from `google-api-client`) then **usage of this library is highly unrecommended**.
- 
+
+## Installation
+
+To add this library as a dependency to your Maven project, add the following repository:
+
+```xml
+<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+
+and the following dependency:
+```xml
+<dependencies>
+	    <dependency>
+	    	    <groupId>com.github.omarathon</groupId>
+	    	    <artifactId>oauth1-hmac</artifactId>
+	    	    <version>1.0</version>
+	    </dependency>
+</dependencies>
+```
+
 ## Usage
 
 ### Primary API
