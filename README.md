@@ -45,12 +45,10 @@ Using the [University of Warwick's OAuth provider](https://warwick.ac.uk/service
 On constructing either OAuth1WithCallback or OAuth1NoCallback, an instance of [TokenMapStrategy](src/main/java/oauth1/strategy/TokenMapStrategy.java) ([JavaDoc](https://omarathon.github.io/oauth1-hmac/oauth1/strategy/TokenMapStrategy.html)) must be provided:
 
 ```java
-interface TokenMapStrategy {
-    void mapTemporaryTokenToTemporaryTokenSecret(@Nonnull String temporaryToken, @Nonnull String temporaryTokenSecret) throws TokenMapException;
+void mapTemporaryTokenToTemporaryTokenSecret(@Nonnull String temporaryToken, @Nonnull String temporaryTokenSecret) throws TokenMapException
     
-    @Nullable
-    String fetchTemporaryTokenSecretForTemporaryToken(@Nonnull String temporaryToken) throws TokenMapException;
-}
+@Nullable
+String fetchTemporaryTokenSecretForTemporaryToken(@Nonnull String temporaryToken) throws TokenMapException
 ```
 
 where:
