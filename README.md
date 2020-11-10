@@ -1,6 +1,6 @@
 # OAuth1-HMAC
 
-OAuth1-HMAC is a simple library implementing the [OAuth1.0 protocol](https://en.wikipedia.org/wiki/OAuth) as a consumer, using the [HMAC signing strategy](https://en.wikipedia.org/wiki/HMAC).
+OAuth1-HMAC is a lightweight library implementing the [OAuth1.0 protocol](https://en.wikipedia.org/wiki/OAuth) as a consumer, using the [HMAC signing strategy](https://en.wikipedia.org/wiki/HMAC).
 
 This library wraps the [Google OAuth Client Library for Java](https://developers.google.com/api-client-library/java/google-oauth-java-client) (`google-oauth-client` | [GitHub](https://github.com/googleapis/google-oauth-java-client)) which implements the underlying OAuth1.0 functionality ([JavaDoc](https://googleapis.dev/java/google-oauth-client/1.25.0/com/google/api/client/auth/oauth/package-summary.html)).
 
