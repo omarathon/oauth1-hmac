@@ -31,3 +31,7 @@ For an understanding of the terms used in this example, please refer to the foll
 ## Documentation
  
 The latest version of OAuth1-HMAC has a JavaDoc [here](https://omarathon.github.io/oauth1-hmac/).
+
+## Support
+
+Please contact Omar Tanner via Discord (omarathon#2226) if you require assistance with this library.
