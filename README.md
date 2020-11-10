@@ -71,7 +71,7 @@ and they both provide the following static method, which is used to make request
 * `makeOAuthBackedRequest` - Makes a request to the given URL wrapped with a user's OAuth credentials (which includes their access token) obtained from `authorised`
 
 
-### Example
+## Example
  
 One may find an example application (which does not use a callback URL) in [Example.java](src/test/java/example/Example.java).
 
