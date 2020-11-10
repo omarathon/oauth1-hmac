@@ -24,11 +24,11 @@ To add this library as a dependency to your Maven project, add the following rep
 and the following dependency:
 ```xml
 <dependencies>
-	    <dependency>
-	    	    <groupId>com.github.omarathon</groupId>
-	    	    <artifactId>oauth1-hmac</artifactId>
-	    	    <version>1.0</version>
-	    </dependency>
+	<dependency>
+	    	<groupId>com.github.omarathon</groupId>
+	    	<artifactId>oauth1-hmac</artifactId>
+	    	<version>1.0</version>
+	</dependency>
 </dependencies>
 ```
 
