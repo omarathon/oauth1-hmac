@@ -14,11 +14,11 @@ To add this library as a dependency to your Maven project, add the following rep
 
 ```xml
 <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+</repositories>
 ```
 
 and the following dependency:
