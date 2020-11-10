@@ -2,6 +2,7 @@ package oauth1;
 
 import com.google.api.client.auth.oauth.OAuthParameters;
 import com.google.api.client.http.HttpContent;
+import lombok.Data;
 import oauth1.exception.GetAccessTokenException;
 import oauth1.exception.GetTemporaryTokenException;
 import oauth1.exception.TokenMapException;
@@ -29,6 +30,7 @@ import javax.annotation.Nullable;
  * 4. If (3) succeeded, you now have an access token and an {@link OAuthParameters} object that can be used to make requests on the user's behalf. Using the {@link OAuthParameters} make a request to a given URL with a given HTTP request method and body via {@link OAuth1WithCallback#makeOAuthBackedRequest(String, OAuthParameters, RequestMethod, HttpContent)}.
  * @author Omar Tanner
  */
+@Data
 public class OAuth1WithCallback extends OAuth1Generic {
     /**
      * @param consumerKey Required identifier portion of the client credentials (equivalent to a username). More information: client_id entry of the OAuthParameters table at https://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml

@@ -59,7 +59,7 @@ public class Example {
         // Key-press occurred, so obtain an access token and OAuthParameters using their the temporary token.
         AuthorisedResult authorisedResult = authorised(beginResult.getTemporaryToken());
         String accessToken = authorisedResult.getAccessToken();
-        OAuthParameters oAuthParameters = authorisedResult.getoAuthParameters();
+        OAuthParameters oAuthParameters = authorisedResult.getOAuthParameters();
         // Display their access token.
         System.out.println("Access Token: " + accessToken);
 

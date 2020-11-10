@@ -1,9 +1,12 @@
 package oauth1.lib;
 
 
+import lombok.Data;
+
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+@Data
 public class BeginResult {
     private @Nonnull String temporaryToken;
     private @Nullable String redirectUrl;
@@ -11,23 +14,5 @@ public class BeginResult {
     public BeginResult(@Nonnull String temporaryToken, @Nullable String redirectUrl) {
         this.temporaryToken = temporaryToken;
         this.redirectUrl = redirectUrl;
-    }
-
-    @Nonnull
-    public String getTemporaryToken() {
-        return temporaryToken;
-    }
-
-    @Nullable
-    public String getRedirectUrl() {
-        return redirectUrl;
-    }
-
-    @Override
-    public String toString() {
-        return "BeginResult{" +
-                "temporaryToken='" + temporaryToken + '\'' +
-                ", redirectUrl='" + redirectUrl + '\'' +
-                '}';
     }
 }
