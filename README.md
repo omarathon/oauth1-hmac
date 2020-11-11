@@ -94,6 +94,8 @@ and they both provide the following static method, which is used to make request
 
 
 ## Example
+
+### Simple "Raw Java" Example
  
 One may find an example application (which does not use a callback URL) in [Example.java](src/test/java/example/Example.java).
 
@@ -107,6 +109,8 @@ This simple example:
 
 For an understanding of the terms used in this example, please refer to the following diagram of the OAuth1.0 flow:
 ![OAuth1.0 Flow](https://support.smartbear.com/readyapi/docs/_images/requests/auth/types/oauth1/about-flow.png)
+
+### Spring Example
  
 ## Documentation
  
