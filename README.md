@@ -112,6 +112,14 @@ For an understanding of the terms used in this example, please refer to the foll
  
 The latest version of OAuth1-HMAC has a JavaDoc [here](https://omarathon.github.io/oauth1-hmac/).
 
+## Testing
+
+Both [OAuth1NoCallback](src/main/java/oauth1/OAuth1NoCallback.java) and [OAuth1WithCallback](src/main/java/oauth1/OAuth1WithCallback.java) have been tested and verified working in production.
+
+* [OAuth1NoCallback](src/main/java/oauth1/OAuth1NoCallback.java) has been tested via [Example.java](src/test/java/example/Example.java). The `CONSUMER_KEY`, `CONSUMER_SECRET`, `REQUEST_TEMPORARY_TOKEN_URL`, `AUTHORISE_TEMPORARY_TOKEN_URL`, `ACCESS_TOKEN_URL` and `RESOURCE_SERVER_REQUEST_URL` constants were filled with those matching a live provider, and the program succesfully does the OAuth1.0 handshake and obtains the expected data from the resource provider on behalf of the user. Feel free to perform such test yourself.
+
+* [OAuth1WithCallback](src/main/java/oauth1/OAuth1WithCallback.java) is being used in production on [ModulePal](https://modulepal.com) - a testimonial case of it working as intended. Its implementation is very similar to OAuth1NoCallback - there are no surprises here.
+
 ## Support
 
 Please contact Omar Tanner via Discord (omarathon#2226) if you require assistance with this library.
