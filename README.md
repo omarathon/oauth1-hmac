@@ -93,7 +93,7 @@ and they both provide the following static method, which is used to make request
 * `makeOAuthBackedRequest` - Makes a request to the given URL wrapped with a user's OAuth credentials (which includes their access token) obtained from `authorised`
 
 
-## Example
+## Examples
 
 ### Simple "Raw Java" Example
  
