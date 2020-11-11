@@ -122,7 +122,7 @@ Both [OAuth1NoCallback](src/main/java/oauth1/OAuth1NoCallback.java) and [OAuth1W
 
 * [OAuth1NoCallback](src/main/java/oauth1/OAuth1NoCallback.java) has been tested via [Example.java](src/test/java/example/Example.java). The `CONSUMER_KEY`, `CONSUMER_SECRET`, `REQUEST_TEMPORARY_TOKEN_URL`, `AUTHORISE_TEMPORARY_TOKEN_URL`, `ACCESS_TOKEN_URL` and `RESOURCE_SERVER_REQUEST_URL` constants were filled with those matching a live provider, and the program succesfully does the OAuth1.0 handshake and obtains the expected data from the resource provider on behalf of the user. Feel free to perform such test yourself.
 
-* [OAuth1WithCallback](src/main/java/oauth1/OAuth1WithCallback.java) is being used live in production on [ModulePal](https://modulepal.com) - a testimonial case of it working as intended. Its implementation is very similar to OAuth1NoCallback - there are no surprises here.
+* [OAuth1WithCallback](src/main/java/oauth1/OAuth1WithCallback.java) is being used live in production on [ModulePal](https://modulepal.com) - a testimonial case of it working as intended. Its implementation is very similar to OAuth1NoCallback - there are no surprises here given that OAuth1NoCallback works as intended.
 
 ## Support
 
