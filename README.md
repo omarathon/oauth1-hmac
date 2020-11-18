@@ -111,6 +111,8 @@ For an understanding of the terms used in this example, please refer to the foll
 ![OAuth1.0 Flow](https://support.smartbear.com/readyapi/docs/_images/requests/auth/types/oauth1/about-flow.png)
 
 ### Spring Example
+
+A Spring example implementing a consumer for [Warwick University's OAuth1.0 provider](https://warwick.ac.uk/services/its/servicessupport/web/sign-on/help/oauth/apis) can be found [here](https://github.com/omarathon/java-spring-warwick-sso-oauth-example). Such example is listed as an official example in their [list of example consumer implementations](https://github.com/omarathon/java-spring-warwick-sso-oauth-example).
  
 ## Documentation
  
