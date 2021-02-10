@@ -8,6 +8,10 @@ Please note that the OAuth1.0 implementation in `google-oauth-client` is in Beta
  
 **If your project uses a conflicting version of `google-oauth-client`** (such a dependency may come transitively from `google-api-client`) then **usage of this library is highly unrecommended**.
 
+## Documentation
+ 
+The latest version of OAuth1-HMAC has a JavaDoc [here](https://omarathon.github.io/oauth1-hmac/).
+
 ## Installation
 
 To add this library as a dependency to your Maven project, add the following repository:
@@ -115,10 +119,6 @@ For an understanding of the terms used in this example, please refer to the foll
 ### Spring Example
 
 A Spring example implementing a consumer for [Warwick University's OAuth1.0 provider](https://warwick.ac.uk/services/its/servicessupport/web/sign-on/help/oauth/apis) can be found [here](https://github.com/omarathon/java-spring-warwick-sso-oauth-example). Such example is listed as an official example in their [list of example consumer implementations](https://warwick.ac.uk/services/its/servicessupport/web/sign-on/help/oauth/apis).
- 
-## Documentation
- 
-The latest version of OAuth1-HMAC has a JavaDoc [here](https://omarathon.github.io/oauth1-hmac/).
 
 ## Testing
 
